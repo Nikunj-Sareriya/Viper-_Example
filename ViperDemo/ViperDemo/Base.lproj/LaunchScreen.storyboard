@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="hpq-B7-IGI">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7qp-Rp-NeZ">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <color key="backgroundColor" red="0.12941176470588234" green="0.20392156862745098" blue="0.23529411764705882" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.12941176470588234" green="0.20392156862745098" blue="0.23529411764705882" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fruits" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQ4-Wq-2Fq">
+                                <rect key="frame" x="0.0" y="372" width="390" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="amJ-Nr-mgY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-BoldItalic" family="Rockwell" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" systemColor="placeholderTextColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="5" height="-1"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7qp-Rp-NeZ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="1ay-1A-BbW"/>
+                            <constraint firstAttribute="bottom" secondItem="7qp-Rp-NeZ" secondAttribute="bottom" id="9oF-dv-5sy"/>
+                            <constraint firstItem="7qp-Rp-NeZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ACg-5M-h6h"/>
+                            <constraint firstItem="dQ4-Wq-2Fq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="EeE-H3-yar"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dQ4-Wq-2Fq" secondAttribute="trailing" id="GeY-1P-ore"/>
+                            <constraint firstItem="dQ4-Wq-2Fq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IM7-Ne-GWJ"/>
+                            <constraint firstItem="dQ4-Wq-2Fq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LXc-yU-gEx"/>
+                            <constraint firstItem="7qp-Rp-NeZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bJY-is-iTA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hpq-B7-IGI" secondAttribute="trailing" id="cPh-2g-zio"/>
+                            <constraint firstItem="7qp-Rp-NeZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="g1P-xQ-BdV"/>
+                            <constraint firstAttribute="bottom" secondItem="hpq-B7-IGI" secondAttribute="bottom" id="gab-1h-9rR"/>
+                            <constraint firstItem="hpq-B7-IGI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ueI-F6-H95"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7qp-Rp-NeZ" secondAttribute="trailing" id="vb3-xT-33b"/>
+                            <constraint firstItem="hpq-B7-IGI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xLJ-gU-dUI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage" width="360" height="640"/>
+        <systemColor name="placeholderTextColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
